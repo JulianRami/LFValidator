@@ -1,0 +1,43 @@
+[
+  {
+    "idRole": 0,
+    "nameRole": "string",
+    "users": [
+      {
+        "idUser": 0,
+        "idRole": 0,
+        "idAvatar": 0,
+        "nameUser": "string",
+        "nicknameUser": "string",
+        "emailUser": "string",
+        "isActiveUser": true,
+	"credential": {
+        "idUser": 0,
+        "password": "string",
+        "saltCredential": "string",
+        "idUserNavigation": "string"
+      },
+	"habitsCommunities": [
+          {
+            "idUser": 0,
+            "idHabit": 0,
+            "idCommunityHabits": 0,
+            "idHabitNavigation": {
+              "idHabit": 0,
+              "nameHabit": "string",
+              "descriptionHabit": "string",
+              "isPublicHabit": true,
+              "habitsCommunities": [
+                "string"
+              ],
+              "personalHabits": [
+                "string"
+              ]
+            },
+            "idUserNavigation": "string"
+          }
+        ]
+      }
+    ]
+  }
+]
